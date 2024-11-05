@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Class5",
+            "request": "launch",
+            "mainClass": "Class5",
+            "projectName": "Java_5aaf750e"
+        },
+        {
+            "type": "java",
+            "name": "Class4",
+            "request": "launch",
+            "mainClass": "Class4",
+            "projectName": "Java_5aaf750e"
+        },
+        {
+            "type": "java",
+            "name": "Class3",
+            "request": "launch",
+            "mainClass": "Class3",
+            "projectName": "Java_5aaf750e"
+        },
+        {
+            "type": "java",
             "name": "Project1",
             "request": "launch",
             "mainClass": "Project1",
