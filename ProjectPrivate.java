@@ -4,27 +4,37 @@ import java.lang.Math;
 public class ProjectPrivate {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Welcome to the Geometry and Calculations Program!");
-        System.out.println("Choose an option:");
-        System.out.println("1. 3D Objects");
-        System.out.println("2. 2D Objects");
-        System.out.println("3. Normal Calculations");
+        boolean continueProgram = true;
         
-        int choice = sc.nextInt();
-        
-        switch(choice) {
-            case 1:
-                handle3DObjects(sc);
-                break;
-            case 2:
-                handle2DObjects(sc);
-                break;
-            case 3:
-                handleCalculations(sc);
-                break;
-            default:
-                System.out.println("Invalid choice!");
+        while(continueProgram) {
+            System.out.println("\nWelcome to the Geometry and Calculations Program!");
+            System.out.println("Choose an option:");
+            System.out.println("1. 3D Objects");
+            System.out.println("2. 2D Objects");
+            System.out.println("3. Normal Calculations");
+            System.out.println("4. Exit Program");
+            
+            int choice = sc.nextInt();
+            
+            switch(choice) {
+                case 1:
+                    handle3DObjects(sc);
+                    break;
+                case 2:
+                    handle2DObjects(sc);
+                    break;
+                case 3:
+                    handleCalculations(sc);
+                    break;
+                case 4:
+                    continueProgram = false;
+                    System.out.println("Thank you for using the program!");
+                    break;
+                default:
+                    System.out.println("Invalid choice!");
+            }
         }
+        sc.close();
     }
 
     private static void handle3DObjects(Scanner sc) {

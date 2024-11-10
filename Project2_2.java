@@ -8,5 +8,5 @@ public class Project2_2 {
             System.out.println("It is not a Leap Year");
         }
     }
-    
 }
+    
