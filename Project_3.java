@@ -1,8 +1,6 @@
 import java.util.Scanner;
 
-import javax.sound.midi.SysexMessage;
-
-public class Project3 {
+public class Project_3 {
  public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     System.out.println("Enter a number for different tasks !!!");
