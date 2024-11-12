@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "marks",
+            "request": "launch",
+            "mainClass": "marks",
+            "projectName": "Java_5aaf750e"
+        },
+        {
+            "type": "java",
+            "name": "Leap",
+            "request": "launch",
+            "mainClass": "Leap",
+            "projectName": "Java_5aaf750e"
+        },
+        {
+            "type": "java",
+            "name": "Input",
+            "request": "launch",
+            "mainClass": "Input",
+            "projectName": "Java_5aaf750e"
+        },
+        {
+            "type": "java",
             "name": "ProjectPrivate",
             "request": "launch",
             "mainClass": "ProjectPrivate",
