@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Practice {
+public class Switch {
     public static void main(String[] args){
         Scanner sc= new Scanner(System.in);
         System.out.println("What is your preferable size option? (1,2,3,4,5)");
