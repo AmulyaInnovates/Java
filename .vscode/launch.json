@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Switch_day",
+            "request": "launch",
+            "mainClass": "Switch_day",
+            "projectName": "Java_5aaf750e"
+        },
+        {
+            "type": "java",
+            "name": "Nest_If",
+            "request": "launch",
+            "mainClass": "Nest_If",
+            "projectName": "Java_5aaf750e"
+        },
+        {
+            "type": "java",
             "name": "Project3",
             "request": "launch",
             "mainClass": "Project3",
