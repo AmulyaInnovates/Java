@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Project4_2",
+            "request": "launch",
+            "mainClass": "Project4_2",
+            "projectName": "Java_5aaf750e"
+        },
+        {
+            "type": "java",
+            "name": "Project4",
+            "request": "launch",
+            "mainClass": "Project4",
+            "projectName": "Java_5aaf750e"
+        },
+        {
+            "type": "java",
             "name": "Switch_day",
             "request": "launch",
             "mainClass": "Switch_day",
