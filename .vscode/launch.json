@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Loops_2",
+            "request": "launch",
+            "mainClass": "Loops_2",
+            "projectName": "Java_5aaf750e"
+        },
+        {
+            "type": "java",
+            "name": "While",
+            "request": "launch",
+            "mainClass": "While",
+            "projectName": "Java_5aaf750e"
+        },
+        {
+            "type": "java",
+            "name": "Whil",
+            "request": "launch",
+            "mainClass": "Whil",
+            "projectName": "Java_5aaf750e"
+        },
+        {
+            "type": "java",
+            "name": "Loops",
+            "request": "launch",
+            "mainClass": "Loops",
+            "projectName": "Java_5aaf750e"
+        },
+        {
+            "type": "java",
             "name": "Project4_2",
             "request": "launch",
             "mainClass": "Project4_2",
