@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Project6",
+            "request": "launch",
+            "mainClass": "Project6",
+            "projectName": "Java_5aaf750e"
+        },
+        {
+            "type": "java",
             "name": "Nest_For_Loops",
             "request": "launch",
             "mainClass": "Nest_For_Loops",
