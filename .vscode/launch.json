@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Nest_For_Loops",
+            "request": "launch",
+            "mainClass": "Nest_For_Loops",
+            "projectName": "Java_5aaf750e"
+        },
+        {
+            "type": "java",
+            "name": "Prime_Factorization",
+            "request": "launch",
+            "mainClass": "Prime_Factorization",
+            "projectName": "Java_5aaf750e"
+        },
+        {
+            "type": "java",
+            "name": "Prime",
+            "request": "launch",
+            "mainClass": "Prime",
+            "projectName": "Java_5aaf750e"
+        },
+        {
+            "type": "java",
             "name": "Assignment5_3",
             "request": "launch",
             "mainClass": "Assignment5_3",

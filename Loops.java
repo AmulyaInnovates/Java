@@ -13,6 +13,6 @@ public class Loops {
         System.out.println("---------------Printing in While Loop------------");
         while(z<=(x-1)){
             z=z+1;
-            System.out.println("The value of y is :- "+ z);
+            System.out.println("The value of z is :- "+ z);
     }}
 }
