@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "hierarchial",
+            "request": "launch",
+            "mainClass": "hierarchial",
+            "projectName": "Java_5aaf750e"
+        },
+        {
+            "type": "java",
+            "name": "inheritence",
+            "request": "launch",
+            "mainClass": "inheritence",
+            "projectName": "Java_5aaf750e"
+        },
+        {
+            "type": "java",
             "name": "trial",
             "request": "launch",
             "mainClass": "trial",

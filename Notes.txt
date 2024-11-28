@@ -1,0 +1,42 @@
+Geting Input from the User :-
+
+Import java.util.Scanner();
+
+Scanner sc= new Scanner(System.in);
+String str= sc.nextLine();
+float fnum= sc.nextFloat();
+Int number= sc.nextInt();
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Programming Methodologies :-
+
+    Procedure Oriented Programming (POP)
+    Object Oriented Programming (OOP) 
+    Aspect Oriented Programming (AOP)
+
+⭐🌟⭐-_-_-_-_-_-_-_-_-_-_OOP's concept-_-_-_-_-_-_-_-_-_-_⭐🌟⭐
+
+OOP's concept is used in very larg and complex programs.
+
+OOP's concept is based on 4 Principles :-
+    
+    Encapsulation
+        -The main goal of Encapsulation is to restrict dirct access to some of an object's information compononents direclt and to make a controlled way to access/to interact with them.
+        -Eg:Banking System
+    Abstraction
+
+    Inheritence
+        -The main goal Inhritence is to allow a Child class to reuse some of the data, behaviors or properties from a Parent class.
+        -Eg: Hierarchy: Vehicles -> Cars , Trains, Planes.
+    
+    Polymorphism
+        -   The main goal of Polymorphism is to let the same action behave differently based on the object that is performing the action.
+        -Eg:Imagine you tell different animals to "speak."
+                A dog will "bark."
+                A cat will "meow."
+                A cow will "moo."
+    
+Constructor is a spcial type of method of a class, it's name is sam as the Class name. A Constructor does not have a return type.
+
+Static keyword allows a variable or an object to be accessed in all the Instances in a class.
+
+🔥A static variable is also known as a "GLOBAL VARIABLE".
