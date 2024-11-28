@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Project8",
+            "request": "launch",
+            "mainClass": "Project8",
+            "projectName": "Java_5aaf750e"
+        },
+        {
+            "type": "java",
             "name": "Mammals",
             "request": "launch",
             "mainClass": "Mammals",

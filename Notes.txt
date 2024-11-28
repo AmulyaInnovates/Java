@@ -1,6 +1,6 @@
 Geting Input from the User :-
 
-Import java.util.Scanner();
+Import java.util.Scanner;
 
 Scanner sc= new Scanner(System.in);
 String str= sc.nextLine();
