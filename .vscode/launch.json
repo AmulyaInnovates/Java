@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SavingsAccount$Project9",
+            "request": "launch",
+            "mainClass": "SavingsAccount$Project9",
+            "projectName": "Java_5aaf750e"
+        },
+        {
+            "type": "java",
+            "name": "super_1",
+            "request": "launch",
+            "mainClass": "super_1",
+            "projectName": "Java_5aaf750e"
+        },
+        {
+            "type": "java",
+            "name": "Overwrite",
+            "request": "launch",
+            "mainClass": "Overwrite",
+            "projectName": "Java_5aaf750e"
+        },
+        {
+            "type": "java",
+            "name": "Overloading",
+            "request": "launch",
+            "mainClass": "Overloading",
+            "projectName": "Java_5aaf750e"
+        },
+        {
+            "type": "java",
             "name": "Project8",
             "request": "launch",
             "mainClass": "Project8",
