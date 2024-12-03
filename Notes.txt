@@ -19,16 +19,65 @@ OOP's concept is used in very larg and complex programs.
 
 OOP's concept is based on 4 Principles :-
     
-    Encapsulation
+    🥇Encapsulation
         -The main goal of Encapsulation is to restrict dirct access to some of an object's information compononents direclt and to make a controlled way to access/to interact with them.
         -Eg:Banking System
-    Abstraction
+    🥈Abstraction
 
-    Inheritence
+    🥉Inheritence
         -The main goal Inhritence is to allow a Child class to reuse some of the data, behaviors or properties from a Parent class.
         -Eg: Hierarchy: Vehicles -> Cars , Trains, Planes.
+        -Types of Inheritence :- 
+                1 Single Inheritence 
+                    -1 Parent class and 1 Child Class
+                    -Eg: Lion -> Cubs
+                2 Multi Level Inheritence
+                    -When a Parent class makes 1 Child class and then that Child class becomes the Parent class for another child class.
+                    -Eg: Grandfather -> Father -> Son
+                3 Hierarchial Inheritence
+                    -When a Parent class makes many Child classes.
+                    -Eg: Vehicles -> Water-Based vehicles, 2-Wheelers, 4-Wheelers, 6-Wheelers
+                4 Hybrid Inheritence
+                    -Combination of 2 or more types of Inheritence.
+                    -Eg: Animals -> (Mammals -> Cats ->Panthors, Tigers, Lions) & (Egg Layers -> Birds -> Penguins, Parrots, Pigeons)
+        
+        🔥-_-_-_CODE EXAMPLE_-_-_-_🔥
+        class PARENT{
+            String 1;
+            String 2;
+            String 3;
+            String 4;
+            String 5;
+
+            void Info(){
+                System.out.println("This is how to use Inheritence.")
+            }
+        }
+
+        class CHILD extends PARENT{
+            void Data(1,2,3,4,5){
+                1= this.1;
+                2= this.2;
+                3= this.3;
+                4= this.4;
+                5= this.5;
+            }
+        }
+        class MAIN{
+            public static void main(String[] args){
+            CHILD s= new CHILD();
+            s.Data(My, Name, Is , Amulya , Gupta);
+            }
+        }
+        👨‍💻-_-_-_CODE SUMMARY_-_-_-_👨‍💻
+
+        Parents class has the intial data and methods , it can contain alot of things, but in this case it has been only used for intializing the characters.
+        Child class used the keyword, "extends" to inherit all the data and methods from the parent class and combine with code of itself.
+        Keyword, "this" is used to access the data given by the user or any data which is enterred in that class.
+        In the main class, we hav created an Object which is an instance of the Child class, when we use any of the methods/functions of the Child class, it will perform the action, based on data given in Parenthesis -> (My, Name, Is , Amulya , Gupta)
+
     
-    Polymorphism
+    4️⃣Polymorphism
         -   The main goal of Polymorphism is to let the same action behave differently based on the object that is performing the action.
         -Eg:Imagine you tell different animals to "speak."
                 A dog will "bark."
@@ -40,3 +89,13 @@ Constructor is a spcial type of method of a class, it's name is sam as the Class
 Static keyword allows a variable or an object to be accessed in all the Instances in a class.
 
 🔥A static variable is also known as a "GLOBAL VARIABLE".
+
+Method Overloading :- When there are many method with the same name but different parameters OR different data types, this is called Method Overloading.
+    - Eg: 
+        void Codingal();
+        void Codingal(int A);
+        void Codingal(String A);
+        float Codingal(String B);
+
+Method Overriding :- When Child class and Parent class has the method named same, we use the keyword "@Override" to override the method in the Parent class.
+    - Eg:
