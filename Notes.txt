@@ -99,3 +99,46 @@ Method Overloading :- When there are many method with the same name but differen
 
 Method Overriding :- When Child class and Parent class has the method named same, we use the keyword "@Override" to override the method in the Parent class.
     - Eg:
+
+        🔥-_-_-_CODE EXAMPLE_-_-_-_🔥
+        class Ashish {
+            void name() {
+                System.out.println("This is Amulya's Father");
+            }}   
+
+        class Amulya extends Ashish {
+            @Override
+            void name() {
+                super.name(); // Calls the parent class method
+                System.out.println("This is Amulya");
+            }}
+
+        public class Main {
+            public static void main(String[] args) {
+                Ashish a = new Ashish();
+                a.name(); // Outputs: This is Amulya's Father
+
+                Amulya b = new Amulya();
+                b.name();
+                // Outputs:
+                // This is Amulya's Father
+                // This is Amulya
+            }}
+
+        👨‍💻-_-_-_CODE ENDS_-_-_-_👨‍💻
+
+Super Keyword :- It is used to access the same data from the Parent class into Child class.
+    - Eg: Above Code Example.⬆️
+
+Access modifiers(See the Access Modifiers.png) :- They are keywords used to set the visibility and accessibility of classes, methods, constructors, and variables. They help control how code is accessed within and across classes or packages.
+    -> There are four types of access modifiers in Java :-
+        
+        -> Private: It is commonly used to implement encapsulation by restricting direct access to the fields and methods.
+            - Example: Banking System
+        -> Default (No Modifier): It is package-private, meaning classes in the same package can access them, but classes outside the package cannot.
+            - Example: Consider a package containing different types of animals (Dog, Cat, Bird) in a zoo system. Default access ensures that only the animals within the same package can share certain internal behaviors or data.
+        -> Protected: It is often used in object-oriented programming to allow controlled access to parent class members for subclasses while restricting access from other classes.
+            - Example: Think of a parent class Vehicle with a protected method startEngine. This method can be inherited and used by subclasses like Car or Bike even if they are in different packages, but it won’t be accessible to unrelated classes.
+        -> Public: Public access is typically used for APIs, utility functions, or any members intended for universal access.
+            - Example: In a library system, the public method checkoutBook allows users to borrow books, while the private method calculateFine is used internally for calculating late fees.
+
