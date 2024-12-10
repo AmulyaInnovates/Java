@@ -130,7 +130,7 @@ Method Overriding :- When Child class and Parent class has the method named same
 Super Keyword :- It is used to access the same data from the Parent class into Child class.
     - Eg: Above Code Example.⬆️
 
-Access modifiers(See the Access Modifiers.png) :- They are keywords used to set the visibility and accessibility of classes, methods, constructors, and variables. They help control how code is accessed within and across classes or packages.
+Access modifiers(See the Access Modifiers.png) (All the files with _am are Access Modifiers Files) :- They are keywords used to set the visibility and accessibility of classes, methods, constructors, and variables. They help control how code is accessed within and across classes or packages.
     -> There are four types of access modifiers in Java :-
         
         -> Private: It is commonly used to implement encapsulation by restricting direct access to the fields and methods.
@@ -142,3 +142,32 @@ Access modifiers(See the Access Modifiers.png) :- They are keywords used to set 
         -> Public: Public access is typically used for APIs, utility functions, or any members intended for universal access.
             - Example: In a library system, the public method checkoutBook allows users to borrow books, while the private method calculateFine is used internally for calculating late fees.
 
+
+Getters and Setters
+    -> These are used to set and retrieve the data from a class in java.
+
+    🔥-_-_-_CODE EXAMPLE_-_-_-_🔥
+    class Student{
+        private String name;
+        public String getName(){
+        return name;
+        }
+
+    public void setName(String name){ 
+        this.name=name;
+        }
+    }
+
+
+    public class private_am {
+        public static void main(String[] args){
+            Student s= new Student();
+            s.setName("Amulya Gupta");
+            System.out.println("We have successfully set your name to :- " + s.getName());
+            }
+              }
+    👨‍💻-_-_-_CODE SUMMARY_-_-_-_👨‍💻
+    Function setName is a setter as it is getting the value from the user and entering it into a variable.
+    Function getName is a getter as it allows to retrieve the name of the Student from the Class.
+    
+    👨‍💻-_-_-_CODE ENDS_-_-_-_👨‍💻
