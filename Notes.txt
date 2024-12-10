@@ -169,5 +169,18 @@ Getters and Setters
     👨‍💻-_-_-_CODE SUMMARY_-_-_-_👨‍💻
     Function setName is a setter as it is getting the value from the user and entering it into a variable.
     Function getName is a getter as it allows to retrieve the name of the Student from the Class.
-    
+
     👨‍💻-_-_-_CODE ENDS_-_-_-_👨‍💻
+
+    Polymorphism
+        ->Breaking polymorphism into 2 words - poly+morphisms ,Poly means many, and morphism means forms.
+        ->Polymorphism is an essential concept of OOPS. It means having various forms. In simple words, it means the same entity(method or object) can perform different operations in different scenarios. 
+
+ 
+
+There are mainly 2 types of polymorphism:
+
+Runtime Polymorphism
+It is achieved while running a program. It is done using overriding. We’ll learn more about it using an activity.
+Compile-time Polymorphism
+It is achieved while compiling a program. It is done usually done using method overloading. We’ll learn more about it using an activity.

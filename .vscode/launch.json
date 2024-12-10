@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Abstraction",
+            "request": "launch",
+            "mainClass": "Abstraction",
+            "projectName": "Java_5aaf750e"
+        },
+        {
+            "type": "java",
+            "name": "hillstations",
+            "request": "launch",
+            "mainClass": "hillstations",
+            "projectName": "Java_5aaf750e"
+        },
+        {
+            "type": "java",
             "name": "Project10",
             "request": "launch",
             "mainClass": "Project10",
