@@ -172,15 +172,87 @@ Getters and Setters
 
     👨‍💻-_-_-_CODE ENDS_-_-_-_👨‍💻
 
-    Polymorphism
-        ->Breaking polymorphism into 2 words - poly+morphisms ,Poly means many, and morphism means forms.
-        ->Polymorphism is an essential concept of OOPS. It means having various forms. In simple words, it means the same entity(method or object) can perform different operations in different scenarios. 
+
+Polymorphism
+    ->Breaking polymorphism into 2 words - poly+morphisms ,Poly means many, and morphism means forms.
+    ->Polymorphism is an essential concept of OOPS. It means having various forms. In simple words, it means the same entity(method or object) can perform different operations in different scenarios. 
+
+There are mainly 2 types of polymorphism:
+    ->Runtime Polymorphism
+        ->It is achieved while running a program. It is done using overriding. We’ll learn more about it using an activity.
+    ->Compile-time Polymorphism
+        ->It is achieved while compiling a program. It is done usually done using method overloading. We’ll learn more about it using an activity.
+
+Differentiate between Polymorphism and Abstraction :-
+    ->Polymorphism means "many forms." It allows the same action or method to work differently based on the object. For example, a person can act as a teacher, parent, or friend depending on the situation. In programming, this means a single function like draw() can work for different shapes like circles or squares, each with its own behavior.
+    ->Abstraction means showing only the important details while hiding the complex parts. For example, when using an ATM, you only see simple options like withdrawing money, but you don’t need to know how the machine processes it internally. In programming, abstraction helps users focus on what a system does, not how it does it, like querying a database without knowing how it stores data.
+
+The benefit of Interfaces:
+
+It helps Java Achieve multiple inheritances.
+It makes an application more secure.
+It helps in achieving 100% abstraction.
+ 
+
+Exception
 
  
 
-There are mainly 2 types of polymorphism:
+An exception is an unanticipated event that occurs during the execution of a program. For example, it disrupts the flow of software instructions, perhaps causing the program to crash.
 
-Runtime Polymorphism
-It is achieved while running a program. It is done using overriding. We’ll learn more about it using an activity.
-Compile-time Polymorphism
-It is achieved while compiling a program. It is done usually done using method overloading. We’ll learn more about it using an activity.
+THE METHOD OF HANDLING THESE METHODS IS KNOWN AS EXCEPTIONAL HANDLING.
+
+ 
+
+Few terminologies to be known:
+
+ 
+
+Checked Exception:
+They are checked at compile time.
+Unchecked Exception
+They are not checked at compile time.
+Error
+Error is irrecoverable e.g. OutOfMemoryError, VirtualMachine Error.
+
+
+
+ 
+
+To understand more about Exception, let’s understand the hierarchy of Exception.
+
+ 
+
+Exceptional Handling
+
+ 
+
+Try-catch
+The try blocks execute the code that could arise an exception.
+Catch block contains the logic of what needs to be done if that exception has occurred.
+There could be multiple catch blocks, but only one try block.
+Syntax:
+ Try{
+
+Int x=5;
+
+Int y=0;
+
+z=x/y;
+
+}
+
+catch(Exception e){
+
+System.out.println(“Cannot divide by 0”);
+
+}
+
+ 
+
+Finally block
+Finally block is usually used to print something after try-catch in all the situations. We’ll understand visually in the activity.
+Throw
+Throw statement is used for throwing user-defined exceptions(We can create our own exceptions too)
+Throws
+Throws is used at the method level to declare that there are chances of exception in this method.
