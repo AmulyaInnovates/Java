@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "revision_4",
+            "request": "launch",
+            "mainClass": "revision_4",
+            "projectName": "Java_5aaf750e"
+        },
+        {
+            "type": "java",
+            "name": "revision_3",
+            "request": "launch",
+            "mainClass": "revision_3",
+            "projectName": "Java_5aaf750e"
+        },
+        {
+            "type": "java",
             "name": "Project12",
             "request": "launch",
             "mainClass": "Project12",

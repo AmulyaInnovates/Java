@@ -178,9 +178,9 @@ Polymorphism
     ->Polymorphism is an essential concept of OOPS. It means having various forms. In simple words, it means the same entity(method or object) can perform different operations in different scenarios. 
 
 There are mainly 2 types of polymorphism:
-    ->Runtime Polymorphism
+    ->Runtime Polymorphism(Same function name in different classes.)
         ->It is achieved while running a program. It is done using overriding. We’ll learn more about it using an activity.
-    ->Compile-time Polymorphism
+    ->Compile-time Polymorphism(Same function name with different parameters inside same class)
         ->It is achieved while compiling a program. It is done usually done using method overloading. We’ll learn more about it using an activity.
 
 Differentiate between Polymorphism and Abstraction :-
