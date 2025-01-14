@@ -67,7 +67,7 @@ public class Course{
     }
 }
 
-public class revision_5{
+public class Student{
     public static void main(String[] args){
 
         Course cs= new Course("Computer Science", 4);

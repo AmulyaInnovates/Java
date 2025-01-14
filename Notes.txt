@@ -23,7 +23,7 @@ OOP's concept is based on 4 Principles :-
         -The main goal of Encapsulation is to restrict dirct access to some of an object's information compononents direclt and to make a controlled way to access/to interact with them.
         -Eg:Banking System
     🥈Abstraction
-
+        -Abstraction means showing only the important details while hiding the complex parts. For example, when using an ATM, you only see simple options like withdrawing money, but you don’t need to know how the machine processes it internally. In programming, abstraction helps users focus on what a system does, not how it does it, like querying a database without knowing how it stores data.
     🥉Inheritence
         -The main goal Inhritence is to allow a Child class to reuse some of the data, behaviors or properties from a Parent class.
         -Eg: Hierarchy: Vehicles -> Cars , Trains, Planes.
@@ -226,8 +226,7 @@ Throws
 Learn :- https://www.geeksforgeeks.org/interfaces-in-java/
 
 Objects : 
-
-An entity that has state and behavior is known as an object e.g., chair, bike, marker, pen, table, car, etc. It can be physical or logical (tangible and intangible). The example of an intangible object is the banking system.
+    ->An entity that has state and behavior is known as an object e.g., chair, bike, marker, pen, table, car, etc. It can be physical or logical (tangible and intangible). The example of an intangible object is the banking system.
 An object has three characteristics:
  
 
@@ -260,3 +259,7 @@ There are two rules defined for the constructor.
 Constructor name must be the same as its class name
 A Constructor must have no explicit return type
 A Java constructor cannot be abstract, static, final, and synchronized
+
+
+Array 
+    ->It is a data structure which can hold a fixed number of elements with same data type.
