@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Arrays {
+public class Arrays_2 {
     public static void main(String[] args){
         Scanner sc= new Scanner(System.in);
 
@@ -33,19 +33,6 @@ public class Arrays {
         System.out.println("The Span of this Array is :- "+ span);
         System.out.println("---------------------------------");
 
-        int ans= Find(array1, d);
-        System.out.println(ans);
-    }
 
-    public static int Find(int[] array1, int d){
-        for(int i=0;i<array1.length;i++){
-            if(array1[i]== d){
-                System.out.println("The value of the Class-Index :- "+i);
-                System.out.println("---------------------------------");
-
-            }
-        }
-
-        return -1;
     }
 }
