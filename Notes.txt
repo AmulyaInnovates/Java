@@ -263,3 +263,11 @@ A Java constructor cannot be abstract, static, final, and synchronized
 
 Array 
     ->It is a data structure which can hold a fixed number of elements with same data type.
+
+Kadane's Algorithm
+    -> Kadane's Algorithm majorly focuses on finding out the maximum subarray of the entir array
+    -> E.g. = [ -1, 2, -2, 5, 7,-3, 1]
+            ->  [ -1, 2, -2, 5]= 6
+            ->  [2, -2, 5, 7]= 12               ✅ Subarray
+            ->  [-2, 5, 7,-3,]= 7
+            ->  [5, 7,-3, 1]= 10
