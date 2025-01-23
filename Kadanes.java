@@ -13,7 +13,7 @@ public class Kadanes {
             myArray[i]= sc.nextInt();
             System.out.println("Enter Next Value");
         }
-        for (int i = 0; i <n; i++) {
+        for(int i=0;i<n;i++) {
             System.out.print(myArray[i] + " ");
         }
         

@@ -255,10 +255,9 @@ It calls a default constructor if there is no constructor available in the class
 Rules of Creating Constructors in Java:
 
 There are two rules defined for the constructor.
-
-Constructor name must be the same as its class name
-A Constructor must have no explicit return type
-A Java constructor cannot be abstract, static, final, and synchronized
+    ->Constructor name must be the same as its class name
+    ->A Constructor must have no explicit return type
+    ->A Java constructor cannot be abstract, static, final, and synchronized
 
 
 Array 
@@ -271,3 +270,6 @@ Kadane's Algorithm
             ->  [2, -2, 5, 7]= 12               ✅ Subarray
             ->  [-2, 5, 7,-3,]= 7
             ->  [5, 7,-3, 1]= 10
+
+Co'ordinate for first value in 2D-Array :- (0,0)
+Co'ordinate for last value in 2D-Array :- (rows.length-1,columns.length-1)
