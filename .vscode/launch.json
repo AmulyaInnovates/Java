@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Hash",
+            "request": "launch",
+            "mainClass": "Hash",
+            "projectName": "Java_5aaf750e"
+        },
+        {
+            "type": "java",
             "name": "Project20",
             "request": "launch",
             "mainClass": "Project20",
