@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RemovePrime",
+            "request": "launch",
+            "mainClass": "RemovePrime",
+            "projectName": "Java_5aaf750e"
+        },
+        {
+            "type": "java",
             "name": "Hash",
             "request": "launch",
             "mainClass": "Hash",

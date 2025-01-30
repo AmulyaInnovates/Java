@@ -86,4 +86,16 @@ public class RingRotate {
         reverse(la,rno,la.length-1);
     }
 
+    public static void reverse(int[] la, int left, int right){
+        while(left<right){
+            int temp= la[left];
+            la[left]=la[right];
+            la[right]=temp;
+            left++;
+            right--;
+        }
+    }
+
+    public static 
+
 }
