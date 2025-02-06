@@ -266,3 +266,10 @@ Kadane's Algorithm
 
 Co'ordinate for first value in 2D-Array :- (0,0)
 Co'ordinate for last value in 2D-Array :- (rows.length-1,columns.length-1)
+
+ArrayList
+    ->It is just an Array with undefined limit.
+    ->Whenever the Initial commit is finished, it's capacity increases by 50% of the initial size whenever the user tries to enter the values further.
+    ->Syntax of ArrayList :-
+        -> ArrayList<Data Types> Array_name= new ArrayList<>(Values);
+        -> Eg. = ArrayList<Integer> al= new ArrayList<>();
