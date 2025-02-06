@@ -273,3 +273,26 @@ ArrayList
     ->Syntax of ArrayList :-
         -> ArrayList<Data Types> Array_name= new ArrayList<>(Values);
         -> Eg. = ArrayList<Integer> al= new ArrayList<>();
+
+    ->To add Elements
+        ->add(element)
+        ->add(index,element)
+        ->addAll(collection)
+        ->addAll(index,collection)
+
+    ->To access Elements
+        ->get(index)
+        ->set(index,element)
+
+    ->To remove Elements
+        ->remove(index)
+        ->remove(element)
+        ->clear()
+
+    ->Checking Size and Existence
+        ->size()
+        ->isEmpty()
+        ->contains(element)
+    
+    ->Iterating over Elements
+        ->
