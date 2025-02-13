@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "power",
+            "request": "launch",
+            "mainClass": "power",
+            "projectName": "Java_5aaf750e"
+        },
+        {
+            "type": "java",
+            "name": "ZigZag_Array",
+            "request": "launch",
+            "mainClass": "ZigZag_Array",
+            "projectName": "Java_5aaf750e"
+        },
+        {
+            "type": "java",
             "name": "Factorial",
             "request": "launch",
             "mainClass": "Factorial",
