@@ -298,3 +298,10 @@ ArrayList
         ->
 
         https://www.tpointtech.com/different-types-of-recursions-in-java
+
+
+Tower of Hanoi
+    -> Move n-1 Discs from A to B using C.
+    -> Move a Disc from A to C.
+    -> Move n-1 Discs from B to C using A.
+    -> Reference :- https://www.youtube.com/watch?v=q6RicK1FCUs
