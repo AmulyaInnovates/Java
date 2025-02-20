@@ -299,8 +299,26 @@ ArrayList
 
         https://www.tpointtech.com/different-types-of-recursions-in-java
 
+Recursion
+    -> It is the function which calls itself directly or indirectly inside it.
+    -> It helps in reducing the code and making it easier to write and makes it less complicated.
+    -> There are 2 types of Recursions :-
+        -> Direct Recursion
+            ->Tails Recursion
+                -> In this recursion, the recursion statement is written at the last code line of the function.
+            ->Heads Recursion
+                -> In this recursion, the recursion statement is written at the first code line of the function.
+            ->Linear Recursion
+                -> In this Recursion, the Recursion is carried out only one time.
+            ->Tree Recursion
+                -> In this Recursion, the Recursion is carried out more than one time.
+            ->Nested Recursion
+                -> In this Recursion, the Recursion is carried out inside of another recursion.
+        ->In-Direct Recursion
+            -> In this type of recursion, one function carries out another function and then it carries out another function and this becomes a loop when the first function is carried out by another function in this loop.
 
 Tower of Hanoi
+    -> It is a tricky game in which there are many disks and 3 poles, pole 1 is course tower, pole 2 is an auxilary pole, pole 3 is the destination tower.
     -> Move n-1 Discs from A to B using C.
     -> Move a Disc from A to C.
     -> Move n-1 Discs from B to C using A.

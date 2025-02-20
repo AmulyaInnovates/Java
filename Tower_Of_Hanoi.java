@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Tower_Of_Haloi {
+public class Tower_Of_Hanoi {
     public static void toh(int n,int t1,int t2,int t3){
         if (n>0){
         toh(n-1,t1,t3,t2);
