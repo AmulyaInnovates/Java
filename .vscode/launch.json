@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Recursion_Array_Reverse",
+            "request": "launch",
+            "mainClass": "Recursion_Array_Reverse",
+            "projectName": "Java_5aaf750e"
+        },
+        {
+            "type": "java",
             "name": "Recursion_Arrays",
             "request": "launch",
             "mainClass": "Recursion_Arrays",
