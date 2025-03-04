@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Tower_Of_Hanoi",
+            "request": "launch",
+            "mainClass": "Tower_Of_Hanoi",
+            "projectName": "Java_5aaf750e"
+        },
+        {
+            "type": "java",
             "name": "Tower_Of_Haloi",
             "request": "launch",
             "mainClass": "Tower_Of_Haloi",

@@ -11,14 +11,14 @@ public class Tower_Of_Hanoi {
     public static void main(String[] args){
         Scanner sc= new Scanner(System.in);
 
-        System.out.println("Enter the value of disks for the Tower of Haloi");
+        System.out.println("Enter the value of disks for the Tower of Hanoi");
         int n= sc.nextInt();
         
         System.out.println("Enter the value for Tower 1");
         int t1= sc.nextInt();
-        System.out.println("Enter the value for Tower 1");
+        System.out.println("Enter the value for Tower 2");
         int t2= sc.nextInt();
-        System.out.println("Enter the value for Tower 1");
+        System.out.println("Enter the value for Tower 3");
         int t3= sc.nextInt();
 
         toh(n,t1,t2,t3);

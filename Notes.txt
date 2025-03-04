@@ -318,8 +318,10 @@ Recursion
             -> In this type of recursion, one function carries out another function and then it carries out another function and this becomes a loop when the first function is carried out by another function in this loop.
 
 Tower of Hanoi
-    -> It is a tricky game in which there are many disks and 3 poles, pole 1 is course tower, pole 2 is an auxilary pole, pole 3 is the destination tower.
+    -> It is a tricky game in which there are many disks and 3 poles, pole 1 is sourse tower, pole 2 is an auxilary pole, pole 3 is the destination tower.
+    -> Larger Ring can never be placed over a smaller ring.
     -> Move n-1 Discs from A to B using C.
     -> Move a Disc from A to C.
     -> Move n-1 Discs from B to C using A.
     -> Reference :- https://www.youtube.com/watch?v=q6RicK1FCUs
+    -> Image :- (Tower_of_Hanoi.png)
