@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Recursion_max_array",
+            "request": "launch",
+            "mainClass": "Recursion_max_array",
+            "projectName": "Java_5aaf750e"
+        },
+        {
+            "type": "java",
+            "name": "Staircase",
+            "request": "launch",
+            "mainClass": "Staircase",
+            "projectName": "Java_5aaf750e"
+        },
+        {
+            "type": "java",
             "name": "Recursion_Array_Reverse",
             "request": "launch",
             "mainClass": "Recursion_Array_Reverse",
