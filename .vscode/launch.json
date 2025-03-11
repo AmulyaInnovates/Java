@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PhoneKeypadCombinations",
+            "request": "launch",
+            "mainClass": "PhoneKeypadCombinations",
+            "projectName": "Java_5aaf750e"
+        },
+        {
+            "type": "java",
+            "name": "FindIndexRecursion",
+            "request": "launch",
+            "mainClass": "FindIndexRecursion",
+            "projectName": "Java_5aaf750e"
+        },
+        {
+            "type": "java",
             "name": "Recursion_max_array",
             "request": "launch",
             "mainClass": "Recursion_max_array",
