@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BubbleSort",
+            "request": "launch",
+            "mainClass": "BubbleSort",
+            "projectName": "Java_5aaf750e"
+        },
+        {
+            "type": "java",
+            "name": "Floor_Ceil_Binary",
+            "request": "launch",
+            "mainClass": "Floor_Ceil_Binary",
+            "projectName": "Java_5aaf750e"
+        },
+        {
+            "type": "java",
             "name": "BinarySearchRecursion",
             "request": "launch",
             "mainClass": "BinarySearchRecursion",
