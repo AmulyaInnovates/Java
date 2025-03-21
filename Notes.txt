@@ -325,3 +325,6 @@ Tower of Hanoi
     -> Move n-1 Discs from B to C using A.
     -> Reference :- https://www.youtube.com/watch?v=q6RicK1FCUs
     -> Image :- (Tower_of_Hanoi.png)
+
+
+https://www.geeksforgeeks.org/binary-search/
