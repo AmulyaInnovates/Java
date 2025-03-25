@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SelectionSort",
+            "request": "launch",
+            "mainClass": "SelectionSort",
+            "projectName": "Java_5aaf750e"
+        },
+        {
+            "type": "java",
             "name": "BubbleSort",
             "request": "launch",
             "mainClass": "BubbleSort",
