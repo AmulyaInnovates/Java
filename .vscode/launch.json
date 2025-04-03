@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "QuickSort",
+            "request": "launch",
+            "mainClass": "QuickSort",
+            "projectName": "Java_5aaf750e"
+        },
+        {
+            "type": "java",
             "name": "InsertionSortPosition",
             "request": "launch",
             "mainClass": "InsertionSortPosition",
