@@ -327,8 +327,22 @@ Tower of Hanoi
     -> Image :- (Tower_of_Hanoi.png)
 
 
-https://www.geeksforgeeks.org/binary-search/
+Binary Search :- https://www.geeksforgeeks.org/binary-search/
 
-https://www.geeksforgeeks.org/bubble-sort-algorithm/
+Bubble Sort Algorithm :- https://www.geeksforgeeks.org/bubble-sort-algorithm/
 
 Quick-Sort :- https://www.youtube.com/shorts/MeBYqiehwyQ
+
+nextInt() V/s nextLine() :- https://chatgpt.com/share/67ff7d83-01e8-8002-af0c-e6bddcc78996
+
+String Functions :- 
+    -> length(): Returns the length of the string.
+    -> charAt(int index): Returns the character at the specified index.
+    -> substring(int beginIndex): Returns a new string that is a substring of the original string, starting from the specified index.
+    -> substring(int beginIndex, int endIndex): Returns a new string that is a substring of the original string, starting from the beginIndex and ending at the endIndex - 1.
+    -> toLowerCase(): Returns a new string with all characters converted to lowercase.
+    -> toUpperCase(): Returns a new string with all characters converted to uppercase.
+    -> trim(): Returns a new string with leading and trailing whitespace removed.
+    -> startsWith(String prefix): Checks if the string starts with the specified prefix.
+    -> endsWith(String suffix): Checks if the string ends with the specified suffix.
+    -> contains(CharSequence sequence): Checks if the string contains the specified sequence of characters.
